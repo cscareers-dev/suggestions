@@ -1,0 +1,25 @@
+name: Discord Server Suggestion
+description: 'Have an idea for the cscareers Discord Server? Let us know your suggestion here.'
+labels: [discord-server-suggestion]
+body:
+  - type: textarea
+    id: 'suggestion'
+    attributes:
+      label: 'What is your suggestion?'
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: 'example'
+    attributes:
+      label: 'What is the value add for adding this to the Discord server?'
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: 'context'
+    attributes:
+      label: 'Additional context'
+      description: 'Add any other context about the suggestion'
+    validations:
+      required: false
